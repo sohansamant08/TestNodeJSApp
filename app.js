@@ -8,5 +8,3 @@ const server = http.createServer((request, response) => {
 server.listen(5000, () => {
   console.log('Server is running...');
 });
-
-module.exports = app;
